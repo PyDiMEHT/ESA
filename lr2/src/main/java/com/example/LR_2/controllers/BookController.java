@@ -24,6 +24,6 @@ public class BookController {
     public String home(Model model){
         List<BookEntity> allBookEntities = bookService.finAll();
         model.addAttribute("allBookEntities", allBookEntities);
-        return "playersPage";
+        return "bookPage";
     }
 }
