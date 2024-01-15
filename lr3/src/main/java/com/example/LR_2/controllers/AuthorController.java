@@ -30,6 +30,6 @@ public class AuthorController {
     public String home(Model model){
         List<AuthorEntity> allAuthorEntities = authorService.findAll();
         model.addAttribute("allAuthorEntities", allAuthorEntities);
-        return "teamsPage";
+        return "authorsPage";
     }
 }
