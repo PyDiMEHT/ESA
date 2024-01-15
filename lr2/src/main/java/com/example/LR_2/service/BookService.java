@@ -18,7 +18,4 @@ public class BookService {
     public List<BookEntity> finAll(){
         return bookRepository.findAll();
     }
-    public BookEntity savePlayer(BookEntity newBookEntity) {
-        return bookRepository.save(newBookEntity);
-    }
 }
